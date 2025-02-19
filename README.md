@@ -67,22 +67,6 @@ pip install -r requirements.txt
    python 3.py
    ```
 
-## Project Structure
-
-A possible project structure layout:
-
-```
-your-repo-name/
-├── 3.py                  # Main Python script
-├── requirements.txt      # Dependencies
-├── README.md             # This file
-└── ...
-```
-
-- **3.py**: Contains the core logic for scanning and exploiting vulnerabilities.  
-- **requirements.txt**: Lists the libraries needed.  
-- **README.md**: You are reading it now.
-
 ## How It Works
 
 1. **Scanning & Enumeration**: The script locates potential vulnerabilities by probing known endpoints and forms within DVWA (or your chosen vulnerable app).  
